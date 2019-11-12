@@ -26,7 +26,7 @@ public class UDPClient {
             DatagramPacket reply = new DatagramPacket(buffer, buffer.length);
             aSocket.receive(reply);
             System.out.println("Reply: " + new String(reply.getData()));
-            System.out.println("Do you want to continue? (input 0 for Yes, other number for No) : ");
+            System.out.println("Do you want to continue? (input 0 for No, other number for Yes) : ");
             cont = Integer.parseInt(console.readLine());
         }
         } catch (SocketException e) {

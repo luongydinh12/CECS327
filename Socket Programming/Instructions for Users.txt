@@ -1,0 +1,7 @@
+To run the Server
+- Compile server : javac UDPServer.java
+- Run java file: java UDPServer
+
+To run the Client
+- Compile client: javac UDPClient.java
+- Run java file: java UDPClient
